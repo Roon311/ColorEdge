@@ -1,3 +1,5 @@
+#**ColorEdge**
+
 ## Introduction
 
 This project, **ColorEdge**, introduces a novel framework for systematically evaluating the robustness of image classification models against controlled color and structural perturbations. In real-world applications, image classification models often face challenges due to subtle variations in input data, such as changes in lighting, camera settings, or environmental factors. Traditional robustness evaluation methods, like adversarial attacks or simple data augmentations, often fall short in capturing these nuanced, naturally occurring variations. ColorEdge addresses this gap by leveraging advanced generative models to create interpretable and controlled image variants, providing deeper insights into model vulnerabilities.
