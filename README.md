@@ -43,17 +43,15 @@ This method generates visually coherent and plausible variants that are more rep
 
 Here are examples of color maps generated using both approaches:
 
-### Figure 1: Original Images
-<img width="812" height="248" alt="image" src="https://github.com/user-attachments/assets/77211d5b-bc49-42d4-91ff-da1e47e246e9" />
 
 
-### Figure 2: Random Color Map Generation (Approach 1)
+### Figure 1: Random Color Map Generation (Approach 1)
+<img width="868" height="456" alt="image" src="https://github.com/user-attachments/assets/6ea823db-af1c-4cc3-8b5e-f430d2a56f55" />
 
-![Figure 2: Color maps generated using the first approach](<img width="870" height="465" alt="image" src="https://github.com/user-attachments/assets/2f27f90e-e5af-4bda-955f-6b9ba83bfd6b" />)
 
-### Figure 3: Compressed Color Block Generation (Approach 2)
+### Figure 2: Compressed Color Block Generation (Approach 2)
 
-![Figure 3: Color maps generated using the second approach](<img width="909" height="461" alt="image" src="https://github.com/user-attachments/assets/e43ebce4-103c-4a9e-a42e-9b15f490d853" />)
+<img width="899" height="459" alt="image" src="https://github.com/user-attachments/assets/b147cbe7-c9eb-48d5-be3f-a4731bce81a1" />
 
 
 ## Results and Discussion
@@ -82,15 +80,16 @@ Here are examples of the generated image variants:
 
 ### Figure 3: Variants Generated with Random Color Maps (Approach 1)
 
-![Figure 3: Color maps generated using the first approach for Image 1 (top row) and Image 2 (bottom row).](https://private-us-east-1.manuscdn.com/sessionFile/kUutG5AieJj8Fr6ue2UVnh/sandbox/yRp5WJ9tu5FdJBfrpOquyk-images_1755527103508_na1fn_L3RtcC9wZGZfaW1hZ2VzL1Jlc2VhcmNoX1Byb2plY3RfNV8yX19fQ29sb3JmdWxfR2VuZXJhdGlvbi8wMTA.webp?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUva1V1dEc1QWllSmo4RnI2dWUyVVZuaC9zYW5kYm94L3lScDVXSjl0dTVGZEpCZnJwT3F1eWstaW1hZ2VzXzE3NTU1MjcxMDM1MDhfbmExZm5fTDNSdGNDOXdaR1pmYVcxaFoyVnpMMUpsYzJWaGNtTm9YMUJ5YjJwbFkzUmZOVjh5WDE5ZlEyOXNiM0ptZFd4ZlIyVnVaWEpoZEdsdmJpOHdNVEEud2VicCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=tdpmy2t3ezhMpHVzWolro-gCYB3gwKcryzjV3Fa2bOIVv1e0LMZ~OcYFcd8zoS0SZF9chMaOkgP~SEjDCYiNO8XtHe2ZnK~aZyjSICHySOLRXK6~BDYwXA6ISKMUsYo9ykqTw9vce-Jm3HbQ2bDCrInFAb~hxsdOdsQi3N4SsfFRlrCbTeISfT~fG9qvrLa1lnPHJxTWvzoz38HsN~7a~yGdCtLO7gaqZaivt-b9IHE-oXtttG3UECtbREfq10co6KO4TxgRsjPKNbvMR8y~dXEENP~ES3DVRDJuXAsvDlk9BkOibkeVyKFSn16EyNzknba2dcpj34s6FxfzVnvMmw__)
+<img width="870" height="465" alt="image" src="https://github.com/user-attachments/assets/2f27f90e-e5af-4bda-955f-6b9ba83bfd6b" />
+
 
 ### Figure 4: Variants Generated with Compressed Color Blocks (Approach 2)
 
-![Figure 4: Color maps generated using the second approach (compressed 2x3 grid with delta variations) for Image 1 (top row) and Image 2 (bottom row).](https://private-us-east-1.manuscdn.com/sessionFile/kUutG5AieJj8Fr6ue2UVnh/sandbox/yRp5WJ9tu5FdJBfrpOquyk-images_1755527103508_na1fn_L3RtcC9wZGZfaW1hZ2VzL1Jlc2VhcmNoX1Byb2plY3RfNV8yX19fQ29sb3JmdWxfR2VuZXJhdGlvbi8wMTA.webp?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUva1V1dEc1QWllSmo4RnI2dWUyVVZuaC9zYW5kYm94L3lScDVXSjl0dTVGZEpCZnJwT3F1eWstaW1hZ2VzXzE3NTU1MjcxMDM1MDhfbmExZm5fTDNSdGNDOXdaR1pmYVcxaFoyVnpMMUpsYzJWaGNtTm9YMUJ5YjJwbFkzUmZOVjh5WDE5ZlEyOXNiM0ptZFd4ZlIyVnVaWEpoZEdsdmJpOHdNVEEud2VicCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=tdpmy2t3ezhMpHVzWolro-gCYB3gwKcryzjV3Fa2bOIVv1e0LMZ~OcYFcd8zoS0SZF9chMaOkgP~SEjDCYiNO8XtHe2ZnK~aZyjSICHySOLRXK6~BDYwXA6ISKMUsYo9ykqTw9vce-Jm3HbQ2bDCrInFAb~hxsdOdsQi3N4SsfFRlrCbTeISfT~fG9qvrLa1lnPHJxTWvzoz38HsN~7a~yGdCtLO7gaqZaivt-b9IHE-oXtttG3UECtbREfq10co6KO4TxgRsjPKNbvMR8y~dXEENP~ES3DVRDJuXAsvDlk9BkOibkeVyKFSn16EyNzknba2dcpj34s6FxfzVnvMmw__)
+<img width="909" height="461" alt="image" src="https://github.com/user-attachments/assets/e43ebce4-103c-4a9e-a42e-9b15f490d853" />
 
 ### Figure 5: Original Images
 
-![Figure 5: Original images used for generating color maps and variants](https://private-us-east-1.manuscdn.com/sessionFile/kUutG5AieJj8Fr6ue2UVnh/sandbox/yRp5WJ9tu5FdJBfrpOquyk-images_1755527103509_na1fn_L3RtcC9wZGZfaW1hZ2VzL1Jlc2VhcmNoX1Byb2plY3RfNV8yX19fQ29sb3JmdWxfR2VuZXJhdGlvbi8wMTE.webp?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUva1V1dEc1QWllSmo4RnI2dWUyVVZuaC9zYW5kYm94L3lScDVXSjl0dTVGZEpCZnJwT3F1eWstaW1hZ2VzXzE3NTU1MjcxMDM1MDlfbmExZm5fTDNSdGNDOXdaR1pmYVcxaFoyVnpMMUpsYzJWaGNtTm9YMUJ5YjJwbFkzUmZOVjh5WDE5ZlEyOXNiM0ptZFd4ZlIyVnVaWEpoZEdsdmJpOHdNVEUud2VicCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=WS0L~zTcwYJieOOBtXm69qwpNu9IwhngPVCQbm3yvT~fhyxMszZsMhiCS~K5yE-exW3xG~QY-bjmvYA56el~g29iUx1-OzAQ5UmHlyBTNwQpSIJezYX~a9wPuESd6i5QQTTOpRM8qBEFjs8Xc87u3HSJzL2c6iZsOcQoEFsCnZOzldJaP2seZQSwDGQ4VlrdPo~drr6Anh4saGXfwRM5RvgKK767lyBi6RuEd0bQif8c~aUWEfqHCpBgTU-17sOiMRlxmhMsjGCxbzOg3CXFOKCU895RpreaDdKgyHFQImrZv8xk0bVP-o~NnpJsGiBcJIJT2BLq~fDD--YFQcymlw__)
+<img width="812" height="248" alt="image" src="https://github.com/user-attachments/assets/77211d5b-bc49-42d4-91ff-da1e47e246e9" />
 
 ## Conclusion and Future Work
 
