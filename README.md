@@ -1,4 +1,4 @@
-#**ColorEdge**
+# **ColorEdge🎨**
 
 ## Introduction
 
